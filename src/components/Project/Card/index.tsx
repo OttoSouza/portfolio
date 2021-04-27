@@ -23,7 +23,19 @@ export function Card() {
 
   console.log(informations);
   return (
-    <Grid templateColumns="repeat(4, 1fr)" gap={6} my="auto" px="4">
+    <Grid
+      templateColumns={[
+        "repeat(1, 1fr)",
+        "repeat(1, 1fr)",
+        "repeat(2, 1fr)",
+        "repeat(3, 1fr)",
+        "repeat(4, 1fr)",
+      ]}
+      gap={6}
+      my="auto"
+      mx="auto"
+      overflowY="auto"
+    >
       {informations.map((info) => (
         <CardItem key={info.id} projects={info} />
       ))}

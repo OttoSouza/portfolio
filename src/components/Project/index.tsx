@@ -10,7 +10,7 @@ export function Project() {
       <ParallaxLayer
         offset={1}
         speed={2}
-        style={{ backgroundColor: "#F9F9F9" }}
+        style={{ backgroundColor: "#F9F9F9"}}
         id="project"
       />
       <ParallaxLayer
@@ -20,18 +20,19 @@ export function Project() {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          color: "white",
         }}
       >
         <Flex
           width="100%"
-          height="100vh"
+          height="100%"
           maxWidth={1280}
           flexDir="column"
           color="white"
+          px="10"
+          pb="4"
         >
           <Skills />
-          <Card/>
+          <Card />
         </Flex>
       </ParallaxLayer>
     </>
