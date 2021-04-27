@@ -34,8 +34,8 @@ export default function Informations() {
           <Text as="p" color="red.50" textAlign="justify">
             Sou um analista de sistemas e aluno da RocketSeat apaixonado por
             tecnologia. Desenvolvi diversas aplicações com algumas tecnologias
-            mais em alta do mercado, como: NextJs, TypeScript, ChakraUI. Alem
-            disso estou tentando desenvolver as soft skills.
+            mais utiliazadas no mercado, como: NextJs, TypeScript, ChakraUI. Além
+            disso estou aprendendo a desenvolver as soft skills.
           </Text>
 
           <Flex gridGap={4}>

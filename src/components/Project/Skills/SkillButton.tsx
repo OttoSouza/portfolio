@@ -85,7 +85,7 @@ export function SkillButton({ name }) {
   }
 
   return (
-    <Box boxShadow="xl" bg="transparent">
+    <Box boxShadow="xl">
       <Popover>
         <PopoverTrigger>
           <IconButton
