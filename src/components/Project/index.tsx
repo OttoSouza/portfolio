@@ -1,6 +1,7 @@
 import { Flex } from "@chakra-ui/react";
 import { ParallaxLayer } from "@react-spring/parallax";
 import React from "react";
+import { Card } from "./Card";
 import { Skills } from "./Skills";
 
 export function Project() {
@@ -10,7 +11,7 @@ export function Project() {
         offset={1}
         speed={2}
         style={{ backgroundColor: "#F9F9F9" }}
-        id="contato"
+        id="project"
       />
       <ParallaxLayer
         offset={1}
@@ -30,6 +31,7 @@ export function Project() {
           color="white"
         >
           <Skills />
+          <Card/>
         </Flex>
       </ParallaxLayer>
     </>

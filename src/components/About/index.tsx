@@ -22,7 +22,9 @@ export default function About() {
         height="100vh"
         maxWidth={1280}
         flexDir="column"
+        alignItems="flex-start"
         color="white"
+        p="4"
       >
         <Logo />
         <Informations/>

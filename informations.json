@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Ignews",
+    "description": "Blog criado pela rocketseat para ensinamentos do NextJs, serviços de CMS, Banco de dados Serveless, entre outras funcionalidade",
+    "tecnologies": {
+      "first": "NextJs",
+      "second": "ChakraUI",
+      "third": "Stripe",
+      "fourth": "FaunaDB"
+    },
+    "url": "https://github.com/OttoSouza/ignite_ignews"
+  },
+  {
+    "id": 2,
+    "name": "Cart Store",
+    "description": "Desafio do curso Ignite da RocketSeat com intuito de simular uma aplicação de e-commerce",
+    "tecnologies": {
+      "first": "Axios",
+      "second": "React Toastify",
+      "third": "Styled Components",
+      "fourth": "Polished"
+    },
+    "url": "https://github.com/OttoSouza/ignite_cart_store_chapter_II"
+  },
+  {
+    "id": 3,
+    "name": "WordTrip",
+    "description": "Projeto desenvolvido pela rockseat. A ideia é desenvolver um site de automação do zero, usando o layout do figma o para seu desenvolvimento.",
+    "tecnologies": {
+      "first": "NextJs",
+      "second": "ChakraUI",
+      "third": "Prismic",
+      "fourth": "Swiper"
+    },
+    "url": "https://github.com/OttoSouza/iginite_worldtrip_chapter_IV"
+  },
+  {
+    "id": 4,
+    "name": "DtMoney",
+    "description": "Projeto desenvolvido pela rockseat. A ideia é desenvolver um site de transações com ReactJs a partir do template do figma disponibilizado pela empresa.",
+
+    "tecnologies": {
+      "first": "MirageJS",
+      "second": "Axios",
+      "third": "Styled Components",
+      "fourth": "Polished"
+    },
+    "url": "https://github.com/OttoSouza/ignite_dtmoney"
+  }
+]

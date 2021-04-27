@@ -1,31 +1,48 @@
 import React from "react";
 import { MdKeyboardArrowDown } from "react-icons/md";
-import { Text, Flex, Heading, Icon } from "@chakra-ui/react";
+import { Text, Flex, Heading, Icon, IconButton, Box } from "@chakra-ui/react";
 import { ButtonInformation } from "./ButtonInformation";
-
+import Link from "next/link";
 export default function Informations() {
+  const handleScroll = (event: React.FormEvent<HTMLInputElement>) => {
+    event.preventDefault();
+    window.location.href = "#project";
+  };
   return (
     <>
       <Flex
         as="main"
-        alignItems="flex-start"
+        alignItems={["center", "center", "center", "flex-start", "flex-start"]}
         flexDir="column"
         my="auto"
-        gridGap={4}
-        w="40%"
+        w="100%"
       >
-        <Heading>Quem é Otto?</Heading>
-        <Text as="p" color="red.50" textAlign="justify">
-          Sou um analista de sistemas e aluno da RocketSeat apaixonado por
-          tecnologia. Desenvolvi diversas aplicações com algumas tecnologias
-          mais em alta do mercado, como: NextJs, TypeScript, ChakraUI. Alem
-          disso estou tentando desenvolver as soft skills.
-        </Text>
+        <Flex
+          flexDir="column"
+          gridGap={4}
+          alignItems={[
+            "center",
+            "center",
+            "center",
+            "flex-start",
+            "flex-start",
+          ]}
+          maxW="400px"
+          p={["4", "0"]}
+        >
+          <Heading>Quem é Otto?</Heading>
+          <Text as="p" color="red.50" textAlign="justify">
+            Sou um analista de sistemas e aluno da RocketSeat apaixonado por
+            tecnologia. Desenvolvi diversas aplicações com algumas tecnologias
+            mais em alta do mercado, como: NextJs, TypeScript, ChakraUI. Alem
+            disso estou tentando desenvolver as soft skills.
+          </Text>
 
-        <Flex gridGap={4}>
-          <ButtonInformation name="CV" />
-          <ButtonInformation name="Github" />
-          <ButtonInformation name="Linkedin" />
+          <Flex gridGap={4}>
+            <ButtonInformation name="CV" />
+            <ButtonInformation name="Github" />
+            <ButtonInformation name="Linkedin" />
+          </Flex>
         </Flex>
       </Flex>
 
@@ -37,7 +54,14 @@ export default function Informations() {
         alignItems="center"
         gridGap={2}
       >
-        <Icon as={MdKeyboardArrowDown} fontSize="20" />
+        <Link href="#project">
+          <IconButton
+            aria-label="scroll"
+            icon={<Icon as={MdKeyboardArrowDown} fontSize="20" />}
+            colorScheme="transparent"
+            // onClick={() => window.location.href = "#project"}
+          />
+        </Link>
       </Flex>
     </>
   );
