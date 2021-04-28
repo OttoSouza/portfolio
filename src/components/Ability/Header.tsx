@@ -17,6 +17,7 @@ export function Header() {
         alignItems="center"
         justifyContent="center"
         flexDir="column"
+        
       >
         <ChangePageLink />
         <Heading>Habilidades & Projetos</Heading>
