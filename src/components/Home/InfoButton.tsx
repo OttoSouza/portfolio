@@ -11,7 +11,7 @@ export function InfoButton({ name }: InfoButtonProps) {
   switch (name) {
     case "CV":
       link =
-        "https://drive.google.com/file/d/1mkEhr64nWWdx70Y4oGbcgqOHzFOB9dAM/view?usp=sharing";
+        "https://drive.google.com/file/d/1AmW-Mt4Upb3lbb-5JrWl2ZHZGw04e61r/view?usp=sharing";
       bg = "red";
       break;
     case "Github":
